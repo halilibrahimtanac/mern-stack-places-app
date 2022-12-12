@@ -1,0 +1,81 @@
+.edit-place-div {
+    width: 60%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3vh;
+    align-items: center;
+    left: 20%;
+    top: 3vh;
+}
+
+.place-img {
+    width: 45%;
+    height: auto;
+    position: relative;
+}
+
+.form {
+    width: 40%;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.form-element {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    gap: 10px;
+    padding: 5px;
+    color: grey;
+}
+
+.text-input {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 6px;
+    border: 1px solid lightgray;
+    color: grey;
+    font-size: 13px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.text-input:focus {
+    border-color: black;
+}
+
+.btn {
+    width: 30%;
+    height: auto;
+    position: relative;
+    padding: 5px;
+    background-color: rgb(160, 160, 160);
+    color: white;
+    border: 0;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: black;
+}
+.btn:active {
+    background-color: lightgray;
+    color: black;
+}
+.btn:focus {
+    outline: none;
+}

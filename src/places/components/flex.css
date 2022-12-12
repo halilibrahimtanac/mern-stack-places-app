@@ -1,0 +1,39 @@
+.flex {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+.row {
+    flex-direction: row;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+.j-center {
+    justify-content: center;
+}
+.a-center {
+    align-items: center;
+}
+.between {
+    justify-content: space-between;
+}
+.evenly {
+    justify-content: space-evenly;
+}
+.m-h-middle {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}

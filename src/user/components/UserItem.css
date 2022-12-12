@@ -1,0 +1,41 @@
+.user-item-img {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.person {
+    width: 60%;
+    height: 60%;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info {
+    width: 40%;
+    height: 70px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h3 {
+    margin: 0!important;
+}
+h1 {
+    margin: 0;
+}
+.user-place {
+    width: 30%;
+    height: 70px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    text-align: center;
+    border-left: 1px solid rgb(181, 181, 181);
+}

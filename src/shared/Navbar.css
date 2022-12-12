@@ -1,0 +1,52 @@
+.navbar {
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #cecccc;
+}
+
+.links {
+    width: 30%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+.linksbutton {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: grey;
+    position: relative;
+    height: 100%;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+.linksbutton:hover {
+    border-bottom-color: black;
+}
+.linksbutton:active {
+    border-bottom-color: black;
+    color: black;
+}
+
+.activelink {
+    border-bottom-color: black;
+    color: black;
+}
+
+.logo-img {
+    width: 10%;
+    height: auto;
+    position: relative;
+}

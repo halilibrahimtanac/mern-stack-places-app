@@ -1,0 +1,35 @@
+.input-element {
+    width: 50%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.text-input {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.invalid-text {
+    border-color: red;
+}
+.invalid-label {
+    color: red;
+}
+.submit-btn {
+    width: 25%;
+    height: auto;
+    position: relative;
+    padding: 5px;
+    outline: none;
+    background-color: black;
+    border: 0;
+    color: white;
+}
+.submit-btn:active {
+    background-color: lightgray;
+    color: black;
+}

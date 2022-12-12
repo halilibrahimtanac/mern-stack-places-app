@@ -1,0 +1,19 @@
+.add-form {
+    width: 50%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid black;
+    left: 25%;
+    top: 3vh;
+    gap: 25px;
+}
+.add-form-img {
+    width: 50%;
+    height: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
